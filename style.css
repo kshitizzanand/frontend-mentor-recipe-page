@@ -36,14 +36,14 @@ article {
   background-color: var(--white);
 }
 
-#article-banner {
+.article-banner {
     width: 100%;
     display: block;
     border-radius:0;
 }
 
 .content {
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 p {
@@ -96,9 +96,9 @@ td {
     color: var(--brown-800);
 }
 
-@media (min-width: 768px){
+@media (min-width: 48rem){
     article{
-        max-width: 720px;
+        max-width: 45rem;
         margin: 64px auto;
         border-radius: 24px;
         overflow: hidden;
